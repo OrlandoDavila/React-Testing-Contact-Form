@@ -26,3 +26,5 @@ test("Adds information to list when form is submitted", async() => {
 
   expect(await screen.findByText(/Orlando/i)).toBeInTheDocument();
 })
+
+console.log('testing');
